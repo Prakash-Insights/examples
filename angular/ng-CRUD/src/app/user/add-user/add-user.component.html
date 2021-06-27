@@ -1,0 +1,53 @@
+<app-navbar></app-navbar>
+<div class="container" >
+  <div class="container">
+    <div class="row itemCenter">
+      <div class="col-md-6 col-md-offset-2 border border-primary">
+        <h1>{{title}}</h1>
+        <form [formGroup]='addForm'>
+          <div class="form-group">
+            <label for="firstName">
+              firstName:
+            </label>
+            <input class="form-control" formControlName='firstName' type="text" placeholder="firstName">
+            <div class='text-danger' *ngIf='f.firstName.errors'>
+              Please enter firstName
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastName">
+              lastName:
+            </label>
+            <input class="form-control" formControlName='lastName'  placeholder="lastName">
+            <div class='text-danger' *ngIf='f.lastName.errors'>
+                Please enter lastName
+              </div>
+          </div>
+          <div class="form-group">
+            <label for="email">
+              email:
+            </label>
+            <input class="form-control" formControlName='email' type="email" placeholder="email">
+            <div class='text-danger' *ngIf='f.email.errors'>
+                Please enter email
+              </div>
+          </div>
+          <div class="form-group">
+            <label for="password">
+              password:
+            </label>
+            <input class="form-control" formControlName='password' type="password"  placeholder="password">
+            <div class='text-danger' *ngIf='f.password.errors'>
+                Please enter password
+              </div>
+          </div>
+          <button class="btn btn-primary" (click)='addData(addForm)'>{{btnCap}}</button>
+        </form>
+      
+      </div>
+  
+  
+    </div>
+  </div>
+  
+</div>
