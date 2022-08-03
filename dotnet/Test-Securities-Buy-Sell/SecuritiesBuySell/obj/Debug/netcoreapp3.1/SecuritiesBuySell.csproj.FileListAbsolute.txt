@@ -1,0 +1,13 @@
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\bin\Debug\netcoreapp3.1\SecuritiesBuySell.exe
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\bin\Debug\netcoreapp3.1\SecuritiesBuySell.deps.json
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\bin\Debug\netcoreapp3.1\SecuritiesBuySell.runtimeconfig.json
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\bin\Debug\netcoreapp3.1\SecuritiesBuySell.runtimeconfig.dev.json
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\bin\Debug\netcoreapp3.1\SecuritiesBuySell.dll
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\bin\Debug\netcoreapp3.1\SecuritiesBuySell.pdb
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.csproj.AssemblyReference.cache
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.AssemblyInfoInputs.cache
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.AssemblyInfo.cs
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.csproj.CoreCompileInputs.cache
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.dll
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.pdb
+C:\Users\Atul\source\repos\SecuritiesBuySell\SecuritiesBuySell\obj\Debug\netcoreapp3.1\SecuritiesBuySell.genruntimeconfig.cache
