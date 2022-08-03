@@ -70,7 +70,7 @@ build/Release
 
 # Output of 'npm pack'
 *.tgz
-*.zip
+# *.zip
 *.rar
 
 # Yarn Integrity file
