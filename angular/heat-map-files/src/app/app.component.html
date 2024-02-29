@@ -1,0 +1,101 @@
+<div class="container">
+  <!-- <div>
+
+    <h4>key risk indicators</h4>
+  </div> -->
+  <div class="content-container">
+    <div class="class1" style="width: 10vw;">
+      funds
+    </div>
+    <div class="class2" style="width: 25vw;">
+      <ul class="gridList">
+        <li *ngFor="let i of listOfTitles">
+          {{i}}
+        </li>
+      </ul>
+    </div>
+    <div class="class3 ">
+      <div class="title " style="width: auto;">
+        <h4>key risk indicators</h4>
+        <hr>
+      </div>
+
+      <div *ngIf="!isFluidGrid" class="second-grid  outer-div">
+
+        <div *ngFor="let j of gridData.data.details" class="looping-div inner-div">
+
+          <div style="width:100%">
+            <ul class="table-data">
+              <li>
+                <div style="width:auto ;text-align: center; background-color: transparent; display: flex; justify-content: center ;
+            align-items: center;" class="title-of-column">
+                  <span>{{j.name.length>=100?j.name.toString().substring(1,100):j.name}}</span>
+                </div>
+              </li>
+              <li *ngFor="let i of j.series">
+                <div class="btn"
+                  [ngClass]="{'btn-high':i.status==='high','btn-medium':i.status==='medium','btn-NA':i.status==='NA'}">
+                  <div class="name-fluid">{{i.status}}</div>
+                  <div class="other-half-section">
+
+                    <div class="value-fluid">
+                      {{i.value}}
+                    </div>
+                    <div class="icon-fluid" *ngIf="i.status ==='high'">
+                      <!-- {{i.cleared.toString()}} -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="checked">
+                        <path fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd" />
+                      </svg>
+
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div *ngIf="isFluidGrid" class="second-grid">
+        <div *ngFor="let j of gridData.data.details" class="" [style.width]="gridcellWidth">
+          <div style="width:100%">
+            <ul class="table-data">
+              <li style=" width: 100%;">
+                <div
+                  style=" width:auto ;text-align: center; background-color: transparent; display: flex; justify-content: center; align-items: center;"
+                  class="title-of-column">
+                  <span>{{j.name.length>=100?j.name.toString().substring(1,100):j.name}}</span>
+                </div>
+              </li>
+              <li *ngFor="let i of j.series" style="width: 90%;">
+                <div class="btn-grow"
+                  [ngClass]="{'btn-high':i.status==='high','btn-medium':i.status==='medium','btn-NA':i.status==='NA',}">
+                  <div class="name-fluid">{{i.status}}</div>
+                  <div class="other-half-section">
+
+                    <div class="value-fluid">
+                      {{i.value}}
+                    </div>
+                    <div class="icon-fluid" *ngIf="i.status ==='high'">
+                      <!-- {{i.cleared.toString()}} -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="checked">
+                        <path fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd" />
+                      </svg>
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

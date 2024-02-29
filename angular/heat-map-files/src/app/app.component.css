@@ -1,0 +1,208 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 12px; */
+  flex-grow: 0 1 auto;
+}
+.container div {
+  background-color: rgb(241 245 249);
+  width: 100vw;
+}
+.container div h4 {
+  text-align: center;
+}
+.content-container {
+  background-color: rgb(248 250 252);
+  height: calc(42vh +70px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.class1 {
+  height: 5vw;
+  width: 100%;
+  background-color: transparent !important;
+  transform: rotateZ(270deg);
+  position: absolute;
+  margin-left: -10px;
+  text-align: center;
+  margin-top: 230px;
+}
+.class2 {
+  width: 40vw;
+  height: 96h;
+  background-color: rgb(249 250 251);
+  margin-left: 60px !important;
+}
+.class3 {
+  /* width: auto; */
+  height: 98vh;
+  background-color: rgb(249 250 251);
+  display: flex;
+  flex-direction: column;
+}
+.gridList {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  margin-top: 46px;
+  padding-top: 130px !important;
+  margin-right: 5px;
+  border-right: 1px solid rgb(107 114 128);
+  padding-right: 10px;
+}
+.gridList li {
+  list-style-type: none;
+  margin: 19px 0;
+  text-align: end;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.title {
+  text-align: center;
+}
+.title hr {
+  height: 2px;
+  background-color: rgb(100 116 139);
+}
+.table-data,
+.table-data li {
+  text-align: start;
+  list-style-type: none;
+}
+.table-data {
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.btn {
+  width: 141px !important;
+  height: 38px;
+  padding: 4px 16px;
+  margin: 7px -10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-grow {
+  width: 85% !important;
+  height: 38px;
+  padding: 4px 16px;
+  margin: 7px -20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.second-grid {
+  display: flex;
+  width: 70vw !important;
+  height: 96vh !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  /* scroll-snap-align: ; */
+  scroll-margin: 400px;
+}
+.value {
+  padding: 2px 5px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.looping-div {
+  width: 185px !important;
+  background-color: transparent !important;
+  display: grid;
+  align-items: center;
+}
+.icon {
+  padding: 0 15px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.name {
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-high {
+  background-color: rgb(252 165 165) !important;
+}
+.btn-medium {
+  background-color: rgb(243 244 246) !important;
+}
+.btn-NA {
+  background-color: rgb(226 232 240) !important;
+}
+.checked {
+  width: 1.4rem;
+  height: 1.4rem;
+  text-align: center;
+}
+.title-of-column {
+  height: 70px;
+  margin-left: -20px;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
+}
+.outer-div {
+  transform: rotateZ(180deg);
+}
+.inner-div {
+  transform: rotateZ(-180deg);
+}
+.name-fluid {
+  width: 50% !important;
+  background-color: transparent !important;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.value-fluid {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px 0;
+}
+.value-fluid {
+  background-color: rgb(243 244 246 /0.9) !important;
+  border-radius: 20px;
+  text-align: center;
+  width: 100% !important;
+}
+.icon-fluid {
+  width: 50% !important;
+  background-color: transparent !important;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.other-half-section {
+  width: 50% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent !important;
+}
